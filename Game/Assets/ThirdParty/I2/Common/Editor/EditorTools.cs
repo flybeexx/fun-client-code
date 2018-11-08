@@ -394,7 +394,7 @@ namespace I2
 		
 		public static float FloatAngle(Rect rect, float value, float snap, float min, float max)
 		{
-			int id = GUIUtility.GetControlID(FocusType.Native, rect);
+			int id = GUIUtility.GetControlID(FocusType.Passive, rect);
 			
 			Rect knobRect = new Rect(rect.x, rect.y, rect.height, rect.height);
 			
