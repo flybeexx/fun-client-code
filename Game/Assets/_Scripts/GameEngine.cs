@@ -56,7 +56,7 @@ public class GameEngine : MonoBehaviour
 		DB.DBManager.Instance.Initialize();
 
 		LoaderManager.Instance.Initialize();
-		PreloadManager.Instance.Initialize();
+		StateManager.Instance.Initialize();
 	}
 
 	private void DisposeManager()
@@ -68,7 +68,7 @@ public class GameEngine : MonoBehaviour
 		DB.DBManager.Instance.Dispose();
 
 		LoaderManager.Instance.Dispose();
-		PreloadManager.Instance.Dispose();
+		StateManager.Instance.Dispose();
 	}
 
 	private void DisposeCoroutines()

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PreloadManager
+public class StateManager
 {
 	private StateMachine _stateMachine;
 	public StateMachine StateMachine
@@ -12,14 +12,14 @@ public class PreloadManager
 		}
 	}
 
-	private static PreloadManager _instance;
-	public static PreloadManager Instance
+	private static StateManager _instance;
+	public static StateManager Instance
 	{
 		get
 		{
 			if (_instance == null)
 			{
-				_instance = new PreloadManager();
+				_instance = new StateManager();
 			}
 
 			return _instance;
