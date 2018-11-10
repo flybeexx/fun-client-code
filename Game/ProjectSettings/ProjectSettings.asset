@@ -544,6 +544,8 @@ PlayerSettings:
     22: NGUI
     23: NGUI
     24: NGUI
+    26: NGUI
+    27: NGUI
   platformArchitecture:
     iOS: 2
   scriptingBackend:
